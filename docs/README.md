@@ -36,7 +36,7 @@
   - **优点**：详尽的文档支持，接受加密货币支付
   - **缺点**：仅限于VPS服务，基础设施产品有限
 
-- [Modal](https://modal.com/) - Python应用云平台
+- [Modal](https://modal.com/) - Serverless 平台
   - **优点**：无服务器平台，支持CPU和多种GPU类型，可以运行自定义模型pipeline，每月30美元免费额度
   - **缺点**：需要了解Modal SDK
 
