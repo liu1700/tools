@@ -5,7 +5,7 @@
 记录过去一段时间在AI产品开发中使用过的工具和资源，大部分产品提供免费试用或按需付费模式，适合快速启动项目。很多产品都有替代品，并且持续发展，选择适合你的工具。
 
 ### 核心原则
-SaaS服务在项目初期的免费额度通常足够使用，不要过早担心规模化问题。产品构建初期应选择最便捷的工具，特别是独立产品应避免过早使用AWS、Azure等复杂平台，遵循"从小而简开始"的原则。
+在项目初期的使用到的SaaS服务免费额度通常足够使用，不要过早担心规模化问题。产品构建初期应选择最便捷的工具，特别是独立产品应避免过早使用AWS、Azure等复杂平台，遵循"从小而简开始"的原则。
 
 ### 欢迎推荐更多工具
 如果你知道其他好用的AI、产品构建或生产力工具，欢迎在 [这里](https://github.com/liu1700/tools/issues) 提交建议，我会将它们添加到列表中。
@@ -17,9 +17,9 @@ SaaS服务在项目初期的免费额度通常足够使用，不要过早担心�
 - **Mixpanel**：产品分析可视化工具
 
 ### 🤖 大模型集成方案
-- **Modal**：通过Python SDK构建模型pipeline，轻松实现API调用
+- **Modal**：通过Python SDK构建模型pipeline，并实现API调用
 - **Replicate**：开箱即用的API服务，方便快速对接多种开源大模型
-- **OpenRouter**：快速接入各种主流大模型，内置负载均衡和故障转移
+- **OpenRouter**：快速接入各种主流LLM，内置负载均衡和故障转移
 
 （ChatGPT/Claude/Deepseek等基础工具不再赘述，根据实际可用性选择最优模型）
 
@@ -37,7 +37,7 @@ SaaS服务在项目初期的免费额度通常足够使用，不要过早担心�
   - **缺点**：仅限于VPS服务，基础设施产品有限
 
 - [Modal](https://modal.com/) - Python应用云平台
-  - **优点**：无服务器平台，支持CPU和多种GPU类型，机器学习模型实验的理想选择，每月30美元免费额度
+  - **优点**：无服务器平台，支持CPU和多种GPU类型，运行自定义模型pipeline的选择，每月30美元免费额度
   - **缺点**：需要了解Modal SDK
 
 ## Development Tools
@@ -55,7 +55,7 @@ SaaS服务在项目初期的免费额度通常足够使用，不要过早担心�
 
 ## AI Service Platforms & Tools
 - [Boundary ML](https://www.boundaryml.com/) - LLM输出结构化工具
-  - 使用BAML DSL实现结构化LLM输出，提供开发者友好体验
+  - 使用BAML DSL实现结构化LLM输出
 
 - [OpenRouter](https://openrouter.ai/) - AI模型路由平台
   - **优点**：接入主流大模型，内置负载均衡和故障转移，支持加密货币支付，快速适配新模型
@@ -63,10 +63,10 @@ SaaS服务在项目初期的免费额度通常足够使用，不要过早担心�
 
 - [Replicate](https://replicate.com/)
   - **优点**：模型种类丰富，用户友好界面，适合模型实验
-  - **缺点**：冷启动优化不如Modal，自定义能力有限
+  - **缺点**：冷启动优化不如Modal，模型自定义能力有限
 
 - [Jina AI](https://jina.ai/) - AI API服务
-  - **优点**：核心API功能支持网页抓取、嵌入、内容重排，简单集成
+  - **优点**：核心API功能支持网页抓取、embedding、内容重排，内容分类
   - **缺点**：无法绕过反爬虫保护
 
 - [Exa AI](https://exa.ai/) - 智能搜索与内容生成
@@ -127,7 +127,7 @@ SaaS服务在项目初期的免费额度通常足够使用，不要过早担心�
   - 关键词订阅与回复生成，但需手动复制粘贴回复内容
 
 - [Thunderbit](https://thunderbit.com/) - 智能网页抓取工具
-  - 无代码AI网页抓取，提供热门网站模板，支持数据导出与格式化
+  - 无代码AI网页抓取，支持数据导出与格式化，可以chat with the website
 
 - [Notebook LM](https://notebooklm.google.com/)
   - 集成Google AI，推荐播客生成功能
@@ -139,10 +139,10 @@ SaaS服务在项目初期的免费额度通常足够使用，不要过早担心�
   - AI记忆系统构建
 
 - [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI)
-  - 开源AI代理框架，用于理解代理交互
+  - 开源AI代理框架，可以用来尝试一下AI agent的构建
 
 ## Visualization
-- [mermaid-js/mermaid](https://github.com/mermaid-js/mermaid) - Markdown式图表生成
+- [mermaid-js/mermaid](https://github.com/mermaid-js/mermaid) - 文本到图表生成
   - 文本转图表渲染库，支持流程图、时序图、类图
 
 - [markmap/markmap](https://github.com/markmap/markmap) - Markdown思维导图可视化
