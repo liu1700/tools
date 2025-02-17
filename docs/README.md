@@ -30,14 +30,14 @@
   - **缺点**：Node.js运行时支持不如Vercel完善
 
 - [Vercel](https://vercel.com/) - 网站部署与托管平台
-  - **优点**：出色的Next.js集成，强大的Node.js运行时支持，全面的SDK，优秀的AI功能支持，快速原型设计理想选择，包含分析、日志和监控功能
+  - **优点**：出色的Next.js集成，强大的Node.js运行时支持，全面的SDK，优秀的AI功能支持，快速实现原型的理想选择，包含数据分析、日志和监控功能
 
 - [Vultr](https://vultr.com/) - 云基础设施与托管
   - **优点**：详尽的文档支持，接受加密货币支付
   - **缺点**：仅限于VPS服务，基础设施产品有限
 
 - [Modal](https://modal.com/) - Python应用云平台
-  - **优点**：无服务器平台，支持CPU和多种GPU类型，运行自定义模型pipeline的选择，每月30美元免费额度
+  - **优点**：无服务器平台，支持CPU和多种GPU类型，可以运行自定义模型pipeline，每月30美元免费额度
   - **缺点**：需要了解Modal SDK
 
 ## Development Tools
