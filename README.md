@@ -19,6 +19,7 @@ If you know other good tool for AI, product building or productivity, please sub
 ### 🤖 Large Model Integration Solutions
 - **Modal**: Build model pipelines through Python SDK, easily implement API calls
 - **Replicate**: Ready-to-use API services, convenient to quickly integrate multiple large models
+- **OpenRouter**: Quickly access various mainstream large models, built-in load balancing and failover
 
 (Basic tools like ChatGPT/Claude/Deepseek are not elaborated - choose the optimal model based on actual availability)
 

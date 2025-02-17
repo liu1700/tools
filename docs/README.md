@@ -19,6 +19,7 @@ SaaS服务在项目初期的免费额度通常足够使用，不要过早担心�
 ### 🤖 大模型集成方案
 - **Modal**：通过Python SDK构建模型pipeline，轻松实现API调用
 - **Replicate**：开箱即用的API服务，方便快速对接多种开源大模型
+- **OpenRouter**：快速接入各种主流大模型，内置负载均衡和故障转移
 
 （ChatGPT/Claude/Deepseek等基础工具不再赘述，根据实际可用性选择最优模型）
 
