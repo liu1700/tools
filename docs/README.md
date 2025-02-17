@@ -8,9 +8,10 @@
 SaaS服务在项目初期的免费额度通常足够使用，永远不要过早担心规模化问题。产品构建初期应选择最便捷的工具，特别是独立产品应避免过早使用AWS、Azure等复杂平台，始终遵循"从小而简开始"的原则。
 
 ### 🚀 快速启动推荐
-- **Cursor + Vercel**：Next.js全栈项目开发部署黄金组合
+- **Cursor + Vercel**：Next.js全栈项目开发部署的高效组合
 - **Clerk**：用户注册登录系统，提供Next.js友好型SDK
 - **Sentry**：生产环境监控与错误追踪利器
+- **Mixpanel**：产品分析可视化工具
 
 ### 🤖 大模型集成方案
 - **Modal**：通过Python SDK构建模型pipeline，轻松实现API调用
@@ -97,8 +98,8 @@ SaaS服务在项目初期的免费额度通常足够使用，永远不要过早�
 - [Linear](https://linear.app/) - 项目管理与问题追踪
   - 轻量级Jira替代方案
 
-- [Mixpanel](https://mixpanel.com/) - 产品分析工具
-  - **优点**：优秀文档支持，丰富的可视化选项
+- [Mixpanel](https://mixpanel.com/) - 产品分析可视化工具
+  - **优点**：优秀的文档支持，丰富的可视化选项
 
 ## Market Research & SEO & BI & Operations
 - [Napkin AI](https://napkin.ai/) - 可视化内容生成

@@ -8,9 +8,10 @@ Recording efficient tools and resources used in AI product development over the 
 The free tier of SaaS services is usually sufficient in the early stages of projects - never worry too early about scaling issues. Choose the most convenient tools during initial product development, especially for independent products, avoid using complex platforms like AWS, Azure too early, always follow the principle of "start small and simple."
 
 ### 🚀 Quick Start Recommendations
-- **Cursor + Vercel**: Golden combination for Next.js full-stack project development and deployment
+- **Cursor + Vercel**: High-efficiency combination for Next.js full-stack project development and deployment
 - **Clerk**: User registration and login system with Next.js-friendly SDK
 - **Sentry**: Production environment monitoring and error tracking tool
+- **Mixpanel**: Product analytics visualization tool
 
 ### 🤖 Large Model Integration Solutions
 - **Modal**: Build model pipelines through Python SDK, easily implement API calls
@@ -96,7 +97,7 @@ The free tier of SaaS services is usually sufficient in the early stages of proj
 - [Linear](https://linear.app/) - Project management and issue tracking
   - Lightweight Jira alternative
 
-- [Mixpanel](https://mixpanel.com/) - Product analytics tool
+- [Mixpanel](https://mixpanel.com/) - Product analytics visualization tool
   - **Pros**: Excellent documentation support, rich visualization options
 
 ## Market Research & SEO & BI & Operations
