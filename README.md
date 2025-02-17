@@ -7,6 +7,9 @@ Recording efficient tools and resources used in AI product development over the 
 ### Core Principles
 The free tier of SaaS services is usually sufficient in the early stages of projects - never worry too early about scaling issues. Choose the most convenient tools during initial product development, especially for independent products, avoid using complex platforms like AWS, Azure too early, always follow the principle of "start small and simple."
 
+### Welcome to recommend more tools
+If you know other good tool for AI, product building or productivity, please submit suggestions at https://github.com/liu1700/tools/issues, I will add them to the list.
+
 ### 🚀 Quick Start Recommendations
 - **Cursor + Vercel**: High-efficiency combination for Next.js full-stack project development and deployment
 - **Clerk**: User registration and login system with Next.js-friendly SDK
