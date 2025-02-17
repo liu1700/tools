@@ -32,7 +32,7 @@
   - **缺点**：规模扩大时可能费用较高
 
 ## AI 和机器学习服务
-- [ElevenLabs](https://elevenlabs.io/) - AI 语音合成
+- [ElevenLabs](https://elevenlabs.io/) - AI TTS
   - **优点**：专注于文本转语音，丰富的语音选项，包括社区贡献
   - **缺点**：语音模型质量一般
 
@@ -47,7 +47,7 @@
   - **优点**：访问主要语言模型，内置负载均衡，故障转移支持，加密货币支付，快速采用新模型
   - **缺点**：仅限文本模型
 
-- [Replicate](https://replicate.com/) - 机器学习模型部署
+- [Replicate](https://replicate.com/)
   - **优点**：模型种类丰富，用户界面友好，非常适合模型实验
   - **缺点**：与 Modal 相比冷启动优化欠佳
 
@@ -72,7 +72,7 @@
   - **优点**：丰富的搜索、过滤、排序和分面功能，支持多数据源注入
   - **缺点**：文档质量一般，AI 功能有限
 
-- [DataImpulse](https://dataimpulse.com/) - 数据分析平台
+- [DataImpulse](https://dataimpulse.com/) - HTTP Proxy Service
   - 支持加密货币支付的代理服务
 
 ## 项目管理和分析
@@ -89,10 +89,10 @@
 - [SimilarWeb](https://www.similarweb.com/) - 网站流量分析
   - 免费版提供网站对比、基础流量数据、关键词分析
 
-- [WhoIsMaking.Money](https://whoismaking.money/) - 商业智能
+- [WhoIsMaking.Money](https://whoismaking.money/)
   - 发现盈利网站的有趣工具
 
-- [BoringCashCow](https://boringcashcow.com/) - 商业分析
+- [BoringCashCow](https://boringcashcow.com/)
   - 展示盈利但非常规的网站
 
 - [Ahrefs](https://www.ahrefs.com/) - SEO 工具和分析
@@ -112,13 +112,13 @@
 
 # GitHub 项目
 ## 知识和 AI
-- [mem0ai/mem0](https://github.com/mem0ai/mem0) - 个人知识管理系统
+- [mem0ai/mem0](https://github.com/mem0ai/mem0)
   - AI 记忆系统构建
 
-- [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) - 用于编排角色扮演 AI 代理的框架
+- [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI)
   - 开源 AI 代理框架，用于理解代理交互
 
-- [mendableai/firecrawl](https://github.com/mendableai/firecrawl) - AI 驱动的网页爬虫工具
+- [mendableai/firecrawl](https://github.com/mendableai/firecrawl)
   - Firecrawl 的开源项目
 
 ## 可视化

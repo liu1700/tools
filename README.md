@@ -32,7 +32,7 @@
   - **Cons**: Can be expensive at scale
 
 ## AI & ML Services
-- [ElevenLabs](https://elevenlabs.io/) - AI voice synthesis
+- [ElevenLabs](https://elevenlabs.io/) - AI TTS
   - **Pros**: Specialized in text-to-speech, extensive voice options including community contributions
   - **Cons**: Average voice model quality
 
@@ -47,7 +47,7 @@
   - **Pros**: Access to major language models, built-in load balancing, fallback support, crypto payments, quick new model adoption
   - **Cons**: Limited to text models
 
-- [Replicate](https://replicate.com/) - ML model deployment
+- [Replicate](https://replicate.com/)
   - **Pros**: Wide model variety, user-friendly interface, excellent for model experimentation
   - **Cons**: Suboptimal cold start optimization compared to Modal
 
@@ -72,7 +72,7 @@
   - **Pros**: Rich search, filter, sort, and facet capabilities, multiple data source injection support
   - **Cons**: Average documentation quality, limited AI capabilities
 
-- [DataImpulse](https://dataimpulse.com/) - Data analytics platform
+- [DataImpulse](https://dataimpulse.com/) - HTTP Proxy Service
   - Proxy service with crypto payment support
 
 ## Project Management & Analytics
@@ -89,10 +89,10 @@
 - [SimilarWeb](https://www.similarweb.com/) - Website traffic analytics
   - Free tier offers website comparison, basic traffic data, keyword analysis
 
-- [WhoIsMaking.Money](https://whoismaking.money/) - Business intelligence
+- [WhoIsMaking.Money](https://whoismaking.money/)
   - An interesting tool for discovering profitable websites
 
-- [BoringCashCow](https://boringcashcow.com/) - Business analysis
+- [BoringCashCow](https://boringcashcow.com/)
   - Showcases profitable but unconventional websites
 
 - [Ahrefs](https://www.ahrefs.com/) - SEO tools and analytics
@@ -113,13 +113,13 @@
 
 # GitHub Projects
 ## Knowledge & AI
-- [mem0ai/mem0](https://github.com/mem0ai/mem0) - Personal knowledge management system
+- [mem0ai/mem0](https://github.com/mem0ai/mem0)
   - AI memory system construction
 
-- [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI) - Framework for orchestrating role-playing AI agents
+- [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI)
   - Open-source AI agent framework for understanding agent interactions
 
-- [mendableai/firecrawl](https://github.com/mendableai/firecrawl) - AI-powered web crawling tool
+- [mendableai/firecrawl](https://github.com/mendableai/firecrawl)
   - Open-source project from Firecrawl
 
 ## Visualization
