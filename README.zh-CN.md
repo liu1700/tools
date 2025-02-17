@@ -19,7 +19,7 @@
 
 ## 开发工具
 - [Cursor](https://cursor.com/) - AI 驱动的代码编辑器
-  - **优点**：类 VSCode IDE，出色的 AI 预测，实用的 LLM 聊天和编写功能
+  - **优点**：类 VSCode IDE，出色的 AI 预测，实用的 LLM coding copilot 和 composer 功能
   - **缺点**：免费额度有限，订阅价格昂贵，部分 VSCode 插件不兼容，偶尔有测试功能bug
 
 - [Sentry](https://sentry.io/) - 错误跟踪和监控
@@ -56,7 +56,7 @@
 
 - [Exa AI](https://exa.ai/) - AI 搜索和内容生成
   - **优点**：AI 搜索引擎，网页爬虫，相似网站发现，内置 AI 摘要功能
-  - **缺点**：需要更多测试进行全面评估
+  - 需要更多测试进行全面评估
 
 - [Cerebras AI](https://cerebras.ai/) - AI 推理服务
   - 高速 AI 推理，但模型支持有限
@@ -84,7 +84,7 @@
 
 ## 市场研究、SEO、商业智能和工具
 - [Napkin AI](https://napkin.ai/) - 视觉内容生成
-  - 文本转可视化工具，适合讲故事
+  - 文本转可视化工具，适合storytelling
 
 - [SimilarWeb](https://www.similarweb.com/) - 网站流量分析
   - 免费版提供网站对比、基础流量数据、关键词分析
@@ -106,6 +106,9 @@
 
 - [Thunderbit](https://thunderbit.com/) - AI 驱动的网页抓取工具
   - 使用 AI 的无代码网页抓取，流行网站的预建模板，数据导出，支持数据丰富和格式化
+
+- [Notebook LM](https://notebooklm.google.com/)
+  - 集成 Google AI，最喜欢他们的播客生成功能
 
 # GitHub 项目
 ## 知识和 AI

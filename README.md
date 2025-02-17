@@ -19,7 +19,7 @@
 
 ## Development Tools
 - [Cursor](https://cursor.com/) - AI-powered code editor
-  - **Pros**: VSCode-like IDE, excellent AI predictions, useful LLM chat and composer
+  - **Pros**: VSCode-like IDE, excellent AI predictions, useful LLM coding copilot  and composer agent
   - **Cons**: Limited free quota, expensive subscription, some VSCode plugin incompatibility, occasional test functionality bugs
 
 - [Sentry](https://sentry.io/) - Error tracking and monitoring
@@ -56,7 +56,7 @@
 
 - [Exa AI](https://exa.ai/) - AI search and content generation
   - **Pros**: AI search engine, web crawler, similar site discovery, built-in AI summarization features
-  - **Cons**: Needs more testing for comprehensive evaluation
+  - Needs more testing for comprehensive evaluation
 
 - [Cerebras AI](https://cerebras.ai/) - AI inference service
   - High-speed AI inference, but limited model support
@@ -106,6 +106,9 @@
 
 - [Thunderbit](https://thunderbit.com/) - AI-powered web scraping tool
   - No-code web scraping using AI, pre-built templates for popular sites, data export, supports data enrichment and formatting
+
+- [Notebook LM](https://notebooklm.google.com/)
+  - Integrated with Google AI, I like the podcast generation feature
 
 
 # GitHub Projects
