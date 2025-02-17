@@ -8,7 +8,7 @@ Recording efficient tools and resources used in AI product development over the 
 The free tier of SaaS services is usually sufficient in the early stages of projects - never worry too early about scaling issues. Choose the most convenient tools during initial product development, especially for independent products, avoid using complex platforms like AWS, Azure too early, always follow the principle of "start small and simple."
 
 ### Welcome to recommend more tools
-If you know other good tool for AI, product building or productivity, please submit suggestions at [Any Tools?](https://github.com/liu1700/tools/issues), I will add them to the list.
+If you know other good tool for AI, product building or productivity, please submit suggestions at [Here](https://github.com/liu1700/tools/issues), I will add them to the list.
 
 ### 🚀 Quick Start Recommendations
 - **Cursor + Vercel**: High-efficiency combination for Next.js full-stack project development and deployment
@@ -18,7 +18,7 @@ If you know other good tool for AI, product building or productivity, please sub
 
 ### 🤖 Large Model Integration Solutions
 - **Modal**: Build model pipelines through Python SDK, easily implement API calls
-- **Replicate**: Ready-to-use mainstream large model API services
+- **Replicate**: Ready-to-use API services, convenient to quickly integrate multiple large models
 
 (Basic tools like ChatGPT/Claude/Deepseek are not elaborated - choose the optimal model based on actual availability)
 
