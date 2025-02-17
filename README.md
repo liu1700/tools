@@ -1,62 +1,79 @@
 # Tools & Resources
 
+## Curated Tool Resources
+
+Recording efficient tools and resources used in AI product development over the past period. Most products offer free trials or pay-as-you-go models, suitable for quick project launches. Many products have alternatives and are continuously evolving - choose the tools with equivalent functionality that suit your needs.
+
+### Core Principles
+The free tier of SaaS services is usually sufficient in the early stages of projects - never worry too early about scaling issues. Choose the most convenient tools during initial product development, especially for independent products, avoid using complex platforms like AWS, Azure too early, always follow the principle of "start small and simple."
+
+### 🚀 Quick Start Recommendations
+- **Cursor + Vercel**: Golden combination for Next.js full-stack project development and deployment
+- **Clerk**: User registration and login system with Next.js-friendly SDK
+- **Sentry**: Production environment monitoring and error tracking tool
+
+### 🤖 Large Model Integration Solutions
+- **Modal**: Build model pipelines through Python SDK, easily implement API calls
+- **Replicate**: Ready-to-use mainstream large model API services
+
+(Basic tools like ChatGPT/Claude/Deepseek are not elaborated - choose the optimal model based on actual availability)
+
 ## Infrastructure & Hosting
-- [Cloudflare](https://www.cloudflare.com/) - CDN, DNS, and security services
+- [Cloudflare](https://www.cloudflare.com/) - CDN, DNS and security services
   - **Pros**: Comprehensive website hosting services, good alternative to Vercel
-  - **Cons**: Node.js runtime support not as robust as Vercel
+  - **Cons**: Node.js runtime support not as refined as Vercel
 
 - [Vercel](https://vercel.com/) - Frontend deployment and hosting platform
-  - **Pros**: Excellent Next.js integration, robust Node.js runtime support, comprehensive SDK, great AI feature support, ideal for rapid prototyping, includes analytics, logging, and monitoring
-  - **Cons**: Relatively expensive pricing
+  - **Pros**: Excellent Next.js integration, powerful Node.js runtime support, comprehensive SDK, excellent AI feature support, ideal for rapid prototyping, includes analytics, logging, and monitoring
+  - **Cons**: Relatively high pricing
 
 - [Vultr](https://vultr.com/) - Cloud infrastructure and hosting
-  - **Pros**: Extensive documentation, accepts crypto payments
-  - **Cons**: Limited to VPS services, restricted infrastructure offerings
+  - **Pros**: Detailed documentation support, accepts cryptocurrency payments
+  - **Cons**: Limited to VPS services, limited infrastructure products
 
-- [Modal](https://modal.com/) - Cloud platform for Python applications
-  - **Pros**: Serverless platform, supports CPU and various GPU types, ideal for ML model experimentation, $30 monthly free credit
+- [Modal](https://modal.com/) - Python application cloud platform
+  - **Pros**: Serverless platform, supports CPU and various GPU types, ideal for machine learning model experiments, $30 monthly free credit
   - **Cons**: Requires learning Modal SDK
 
 ## Development Tools
-- [Cursor](https://cursor.com/) - AI-powered code editor
-  - **Pros**: VSCode-like IDE, excellent AI predictions, useful LLM coding copilot  and composer agent
-  - **Cons**: Limited free quota, expensive subscription, some VSCode plugin incompatibility, occasional test functionality bugs
+- [Cursor](https://cursor.com/) - Intelligent code editor
+  - **Pros**: VSCode-like IDE experience, excellent AI prediction capabilities, practical LLM programming assistant and code generation agent
+  - **Cons**: Limited free quota, high subscription price, some VSCode plugins incompatible, occasional issues with beta features
 
 - [Sentry](https://sentry.io/) - Error tracking and monitoring
-  - **Pros**: Rich SDK support, easy integration, comprehensive debugging, tracing, alerting, excellent session replay
-  - **Cons**: Premium pricing
+  - **Pros**: Rich SDK support, easy integration, complete debugging, tracking, alerting features, excellent replay session functionality
+  - **Cons**: Limited free quota, relatively high pricing
 
 ## Authentication & User Management
-- [Clerk](https://clerk.com/) - Authentication and user management
-  - **Pros**: Comprehensive auth features, user management, user-friendly SDK
-  - **Cons**: Can be expensive at scale
+- [Clerk](https://clerk.com/) - User authentication management system
+  - **Pros**: Complete authentication functionality, user management module, friendly SDK
 
-## AI & ML Services
-- [ElevenLabs](https://elevenlabs.io/) - AI TTS
-  - **Pros**: Specialized in text-to-speech, extensive voice options including community contributions
-  - **Cons**: Average voice model quality
-
-- [Firecrawl](https://www.firecrawl.dev/) - AI-powered web crawling
-  - Can bypass certain anti-crawling measures, fast response times when testing, but I don't use it in production for now
-
-- [Jina AI](https://jina.ai/) - AI API Services
-  - **Pros**: Core API features for web scraping, embedding, content reranking, simple integration
-  - **Cons**: Cannot bypass anti-crawling protections
+## AI Service Platforms & Tools
+- [Boundary ML](https://www.boundaryml.com/) - LLM output structuring tool
+  - Uses BAML DSL to implement structured LLM output, provides developer-friendly experience
 
 - [OpenRouter](https://openrouter.ai/) - AI model routing platform
-  - **Pros**: Access to major language models, built-in load balancing, fallback support, crypto payments, quick new model adoption
+  - **Pros**: Access to mainstream large models, built-in load balancing and failover, supports cryptocurrency payments, quick adaptation to new models
   - **Cons**: Limited to text models
 
 - [Replicate](https://replicate.com/)
-  - **Pros**: Wide model variety, user-friendly interface, excellent for model experimentation
-  - **Cons**: Suboptimal cold start optimization compared to Modal
+  - **Pros**: Rich model variety, user-friendly interface, suitable for model experiments
+  - **Cons**: Cold start optimization not as good as Modal, limited customization capabilities
 
-- [HuggingFace Models](https://huggingface.co/models) - ML model repository
-  - **Pros**: Extensive model and dataset collection, excellent sharing platform, deployment services
+- [Jina AI](https://jina.ai/) - AI API service
+  - **Pros**: Core API features support web scraping, embedding, content reranking, simple integration
+  - **Cons**: Cannot bypass anti-crawler protection
 
-- [Exa AI](https://exa.ai/) - AI search and content generation
-  - **Pros**: AI search engine, web crawler, similar site discovery, built-in AI summarization features
-  - Needs more testing for comprehensive evaluation
+- [Exa AI](https://exa.ai/) - Intelligent search and content generation
+  - **Pros**: AI search engine, web crawler, similar website discovery, built-in summary generation
+  - **Needs more testing for comprehensive evaluation**
+
+- [ElevenLabs](https://elevenlabs.io/) - Text-to-speech service
+  - **Pros**: Focused on TTS field, provides rich voice options (including community contributions)
+  - **Cons**: Medium quality voice models
+
+- [HuggingFace Models](https://huggingface.co/models) - Machine learning model library
+  - **Pros**: Massive model and dataset resources, excellent sharing platform, provides deployment services
 
 - [Cerebras AI](https://cerebras.ai/) - AI inference service
   - High-speed AI inference, but limited model support
@@ -65,66 +82,62 @@
 - [Serper](https://serper.dev/) - Google Search API
   - Programmatic access to Google search results
 
-- [Boundary ML](https://www.boundaryml.com/) - LLM output structuring
-  - BAML DSL for structured LLM outputs with developer-friendly experience
-
 - [Algolia](https://algolia.com/) - Search and discovery platform
-  - **Pros**: Rich search, filter, sort, and facet capabilities, multiple data source injection support
+  - **Pros**: Rich search, filtering, sorting, and faceting features, supports multiple data source injection
   - **Cons**: Average documentation quality, limited AI capabilities
 
-- [DataImpulse](https://dataimpulse.com/) - HTTP Proxy Service
-  - Proxy service with crypto payment support
+- [DataImpulse](https://dataimpulse.com/) - HTTP proxy service
+  - Proxy service supporting cryptocurrency payments
+
+- [Firecrawl](https://www.firecrawl.dev/) - Intelligent web scraping tool
+  - Can bypass some anti-crawling mechanisms, fast test response speed, currently in production use
 
 ## Project Management & Analytics
 - [Linear](https://linear.app/) - Project management and issue tracking
-  - Lightweight alternative to Jira
+  - Lightweight Jira alternative
 
-- [Mixpanel](https://mixpanel.com/) - Product analytics
-  - **Pros**: Good documentation, rich variety of visualization options
+- [Mixpanel](https://mixpanel.com/) - Product analytics tool
+  - **Pros**: Excellent documentation support, rich visualization options
 
-## Market Research & SEO & Business Intelligence & Tools
+## Market Research & SEO & BI & Operations
 - [Napkin AI](https://napkin.ai/) - Visual content generation
-  - Text-to-visualization tool, ideal for storytelling
+  - Text to visualization tool, suitable for storytelling
 
-- [SimilarWeb](https://www.similarweb.com/) - Website traffic analytics
-  - Free tier offers website comparison, basic traffic data, keyword analysis
+- [SimilarWeb](https://www.similarweb.com/) - Website traffic analysis
+  - Free version provides website comparison, basic traffic data, keyword analysis
 
 - [WhoIsMaking.Money](https://whoismaking.money/)
-  - An interesting tool for discovering profitable websites
+  - Interesting tool for discovering profitable websites
 
 - [BoringCashCow](https://boringcashcow.com/)
-  - Showcases profitable but unconventional websites
+  - Showcases unconventional profitable website cases
 
-- [Ahrefs](https://www.ahrefs.com/) - SEO tools and analytics
-  - Comprehensive SEO analysis tools, but I only use the free chrome extension
+- [Ahrefs](https://www.ahrefs.com/) - SEO tools and analysis
+  - Comprehensive SEO analysis tool, but only using free browser extension
 
 - [SEMrush](https://www.semrush.com/) - Marketing and SEO platform
-  - Never use this but it's a popular Ahrefs alternative
+  - Not actually used, but popular alternative to Ahrefs
 
-- [ReplyGuy](https://replyguy.com/) - AI response generation
-  - Keyword subscription and automated response content generation, but you have to manually copy and paste the response and response yourself
+- [ReplyGuy](https://replyguy.com/) - Automatic reply generation
+  - Keyword subscription and reply generation, but requires manual copy-paste of reply content
 
-- [Thunderbit](https://thunderbit.com/) - AI-powered web scraping tool
-  - No-code web scraping using AI, pre-built templates for popular sites, data export, supports data enrichment and formatting
+- [Thunderbit](https://thunderbit.com/) - Intelligent web scraping tool
+  - No-code AI web scraping, provides popular website templates, supports data export and formatting
 
 - [Notebook LM](https://notebooklm.google.com/)
-  - Integrated with Google AI, I like the podcast generation feature
-
+  - Integrates Google AI, recommended for podcast generation
 
 # GitHub Projects
-## Knowledge & AI
+## AI
 - [mem0ai/mem0](https://github.com/mem0ai/mem0)
   - AI memory system construction
 
 - [crewAIInc/crewAI](https://github.com/crewAIInc/crewAI)
   - Open-source AI agent framework for understanding agent interactions
 
-- [mendableai/firecrawl](https://github.com/mendableai/firecrawl)
-  - Open-source project from Firecrawl
-
 ## Visualization
-- [mermaid-js/mermaid](https://github.com/mermaid-js/mermaid) - Markdown-inspired diagram and chart generation
-  - Text-to-diagram rendering library for flowcharts, sequence diagrams, and class diagrams
+- [mermaid-js/mermaid](https://github.com/mermaid-js/mermaid) - Markdown-style diagram generation
+  - Text to diagram rendering library, supports flowcharts, sequence diagrams, class diagrams
 
-- [markmap/markmap](https://github.com/markmap/markmap) - Visualize markdown as mindmaps
-  - Text-to-mindmap rendering library
+- [markmap/markmap](https://github.com/markmap/markmap) - Markdown mind map visualization
+  - Text to mind map rendering library
