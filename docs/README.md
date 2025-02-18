@@ -95,7 +95,7 @@
   - 支持加密货币支付的代理服务
 
 - [Firecrawl](https://www.firecrawl.dev/) - 智能网页抓取工具
-  - 可绕过部分反爬机制，测试响应速度快，目前还投入自己的生产环境使用
+  - 可绕过部分反爬机制，测试响应速度快，目前还没投入自己的生产环境使用
 
 ## Project Management & Analytics
 - [Linear](https://linear.app/) - 项目管理与问题追踪
@@ -112,7 +112,7 @@
   - 免费版提供网站对比、基础流量数据、关键词分析
 
 - [WhoIsMaking.Money](https://whoismaking.money/)
-  - 发现盈利网站的有趣工具
+  - 一个有意思的网站，发现一些正在盈利的产品
 
 - [BoringCashCow](https://boringcashcow.com/)
   - 展示一些"boring"但盈利的网站案例
